@@ -17,7 +17,9 @@ import GlobalStyles from '@mui/material/GlobalStyles';
 import Container from '@mui/material/Container';
 
 
-function Cabecalho(props) {
+const defaultTheme = createTheme();
+
+export default function Cabecalho() {
 
   return (
 
@@ -62,7 +64,4 @@ function Cabecalho(props) {
     </AppBar>
 
   );
-}
-
-
-export default Cabecalho;
+};
